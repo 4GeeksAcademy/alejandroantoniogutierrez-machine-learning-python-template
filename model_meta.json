@@ -1,0 +1,54 @@
+{
+  "modelo": "Random Forest (class_weight=balanced)",
+  "accuracy": 0.6825,
+  "auc": 0.668134889462462,
+  "cv_auc": 0.6594335575290072,
+  "nacionalidades": [
+    "Mexicano",
+    "Estadounidense",
+    "Canadiense",
+    "Colombiano",
+    "Argentino",
+    "Español",
+    "Brasileño",
+    "Alemán",
+    "Francés",
+    "Británico"
+  ],
+  "estados_civiles": [
+    "Casado",
+    "Divorciado",
+    "Soltero",
+    "Viudo"
+  ],
+  "canales": [
+    "Online",
+    "Presencial",
+    "Referido",
+    "Telefónico"
+  ],
+  "features": [
+    "edad",
+    "ingreso_anual",
+    "visitas_previas",
+    "dias_estancia",
+    "tiene_hijos",
+    "calificacion_presentacion",
+    "oferta_especial",
+    "nac_enc",
+    "civil_enc",
+    "canal_enc"
+  ],
+  "feature_importance": {
+    "ingreso_anual": 0.22279260367439113,
+    "edad": 0.18959784688252612,
+    "nac_enc": 0.11566877432615248,
+    "dias_estancia": 0.10388880493824008,
+    "calificacion_presentacion": 0.10034743369677059,
+    "visitas_previas": 0.07592959418780981,
+    "canal_enc": 0.07091527192593589,
+    "civil_enc": 0.05773816132954286,
+    "tiene_hijos": 0.03192641018604865,
+    "oferta_especial": 0.03119509885258259
+  }
+}
